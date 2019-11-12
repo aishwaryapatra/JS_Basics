@@ -44,7 +44,7 @@ let res_card = students.reduce((res,row) =>
       let percent = row.subjects.reduce(() => {
       return (row.subjects[0].marks + row.subjects[1].marks)/row.subjects.length; },{})
       console.log(row.name + "," + percent);
-  })
+  },{})
 
 //   let result_card=data.reduce((res,row)=>{
 //     percent= ((row.subjects[0].marks + row.subjects[1].marks)/200)*100;
