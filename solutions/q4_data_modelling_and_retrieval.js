@@ -16,4 +16,15 @@ function findFruit(fruitName) {
    var result = findFruit("avocado");
    console.log("Fruit Name: " + result[0].name + "\nColor: " + result[0].color + "\nPrice Per KG: " + result[0].pricePerKg);
 
+//    function check(fname)
+//    {
+//    var result= fruits.find(function(fruit){
+//    return fruit.name===fname;
+//    })
+
+// console.log(result.color+","+result.pricePerKg);
+//    }
+// check("mango");
+
+
 
